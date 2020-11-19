@@ -1,6 +1,6 @@
 FROM jupyter/pyspark-notebook
 RUN pip install pandas_profiling
-COPY Titanic_PySpark.ipynb /home/jovyan/work/
+COPY --chown=1000 Titanic_PySpark.ipynb /home/jovyan/work/
 COPY titanic.csv /home/jovyan/work
 COPY pyspark-overview.png /home/jovyan/work
 COPY distributed-computing-with-spark-7-638.jpg /home/jovyan/work
