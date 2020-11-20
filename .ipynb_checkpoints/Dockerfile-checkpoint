@@ -1,0 +1,11 @@
+FROM jupyter/pyspark-notebook
+RUN pip install pandas_profiling
+COPY --chown=1000 Titanic_PySpark.ipynb /home/jovyan/work/
+COPY titanic.csv /home/jovyan/work
+ADD images/ /home/jovyan/work/images
+#COPY pyspark-overview.png /home/jovyan/work
+#COPY distributed-computing-with-spark-7-638.jpg /home/jovyan/work
+#COPY ml-Pipeline.png /home/jovyan/work
+#COPY ml-PipelineModel.png /home/jovyan/work
+EXPOSE 8888
+
