@@ -7,6 +7,8 @@ Inspired by
 
 ## Workshop details
 
+Link to slides: https://docs.google.com/presentation/d/1Xisy6RWwCnCBwIByU3y5lAQRFikR6H2ttVeakP-qk20/edit#slide=id.gaca0c42d8f_0_1
+
 In this workshop, we cover the simple machine learning problem trying to classify members of the Titanic ship between alive or dead.
 
 The focus of the workshop is learning the technologies surrounding the machine learning, specifically Docker and PySpark.
